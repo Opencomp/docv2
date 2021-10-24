@@ -23,8 +23,8 @@ const config = {
   },
 
   scripts: [
-    '/vendor/iframemanager/iframemanager.js',
-    '/js/main.js'
+    '/docv2/vendor/iframemanager/iframemanager.js',
+    '/docv2/js/main.js'
   ],
 
   presets: [
