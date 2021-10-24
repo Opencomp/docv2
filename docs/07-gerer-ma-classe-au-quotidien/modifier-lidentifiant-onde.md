@@ -14,7 +14,11 @@ C'est cet identifiant qui permet à LSU de retrouver votre classe et vos élève
 
 Pour savoir comment récupérer l'identifiant ONDE de votre classe, consultez la page suivante :
 
-{% page-ref page="../aide-onde-directeurs/recuperer-lid-onde-dune-classe.md" %}
+<div class="pagination-nav__item">
+<a class="pagination-nav__link" href="/aide-onde-directeurs/recuperer-lid-onde-dune-classe/">
+    <div class="pagination-nav__label">➜&nbsp;&nbsp;Récupérer l'identifiant ONDE d'une classe</div>
+</a>
+</div>
 
 ## Comment vérifier/modifier l'identifiant ONDE de ma classe dans Opencomp ?
 

@@ -17,6 +17,7 @@ import TabItem from '@theme/TabItem';
 
 <Tabs>
 <TabItem value="city" label="Avec la ville" default>
+
 Dans le cadre rouge "**Je ne connais pas le code UAI**", cliquez sur la liste déroulante "**Ville**" et commencez à taper les premières lettres de votre ville ou village.
 
 ![Rejoindre un établissement à partir de la ville.](../.gitbook/assets/villeetab.png)

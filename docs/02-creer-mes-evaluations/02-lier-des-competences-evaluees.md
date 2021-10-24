@@ -2,7 +2,12 @@
 
 Avant de pouvoir ajouter/créer des éléments de programme évalués dans une évaluation, vous devez d'abord avoir **créé l'évaluation.**
 
-{% page-ref page="creer-une-nouvelle-evaluation.md" %}
+<div class="pagination-nav__item">
+<a class="pagination-nav__link" href="/creer-mes-evaluations/creer-une-nouvelle-evaluation/">
+    <div class="pagination-nav__label">➜&nbsp;&nbsp;Créer une nouvelle évaluation</div>
+</a>
+</div>
+<br />
 
 Si vous avez déjà créé l'évaluation, vous pouvez y ajouter des éléments de programme évalués depuis la page **Contenu de l'évaluation**.
 

@@ -4,9 +4,12 @@ Lors du premier lancement d'**Opencomp Genie**, vous devez renseigner **votre cl
 
 Vous trouverez plus d'informations à ce sujet sur la page suivante :
 
-{% content-ref url="definir-votre-cle-dapi.md" %}
-[definir-votre-cle-dapi.md](definir-votre-cle-dapi.md)
-{% endcontent-ref %}
+<div class="pagination-nav__item">
+<a class="pagination-nav__link" href="/saisir-les-resultats/utiliser-opencomp-genie/definir-votre-cle-dapi">
+    <div class="pagination-nav__label">➜&nbsp;&nbsp;Définir votre clé d'API</div>
+</a>
+</div>
+<br />
 
 ## Processus général d'utilisation
 
@@ -21,9 +24,9 @@ Une fois en possession d'[un fichier PDF contenant la numérisation de vos copie
 
 ## En savoir plus sur les différents statuts de traitement possibles
 
-<figure class="video-container">
-<iframe src="//www.youtube-nocookie.com/embed/2BG1hWjNVNQ?rel=0" frameborder="0" allowfullscreen width="100%"></iframe>
-</figure>
+<div data-service="youtube" data-id="2BG1hWjNVNQ" data-autoscale></div>
+<br/>
+<br/>
 
 | Code / couleur | Description                                                                                                                                                                          |
 | -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |

@@ -8,9 +8,10 @@ La majorité des copieurs désormais installés dans les établissements scolair
 
 ### Exemple de numérisation vers USB
 
-{% embed url="https://player.vimeo.com/video/164273945" %}
+<div data-service="vimeo" data-id="164273945" data-autoscale></div>
+
 Exemple de numérisation vers USB (Konica Minolta)
-{% endembed %}
+
 
 ### Comment numériser vers USB en utilisant le chargeur automatique de documents ?
 

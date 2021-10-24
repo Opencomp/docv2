@@ -28,5 +28,9 @@ L’identifiant ONDE vous permet d'exporter vers LSU quand vous le désirez. Vou
 
 Pour savoir comment récupérer cet identifiant, consultez cette page.
 
-{% page-ref page="../aide-onde-directeurs/recuperer-lid-onde-dune-classe.md" %}
+<div class="pagination-nav__item">
+<a class="pagination-nav__link" href="/aide-onde-directeurs/recuperer-lid-onde-dune-classe/">
+    <div class="pagination-nav__label">➜&nbsp;&nbsp;Récupérer l'identifiant ONDE d'une classe</div>
+</a>
+</div>
 

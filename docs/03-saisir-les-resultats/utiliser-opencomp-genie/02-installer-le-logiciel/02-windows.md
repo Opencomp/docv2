@@ -8,7 +8,7 @@ description: Apprenez comment installer le logiciel compagnon Opencomp Genie sur
 
 ![](../../../.gitbook/assets/rsz_french_get-it-from-ms_invariantculture_default.png)
 
-Recherchez** Opencomp Genie** dans le Microsoft Store ou accédez à l'URL suivante : [https://www.microsoft.com/fr-fr/p/opencomp-genie/9ng17jn52232](https://www.microsoft.com/fr-fr/p/opencomp-genie/9ng17jn52232?activetab=pivot:overviewtab)
+Recherchez** Opencomp Genie** dans le Microsoft Store ou [accédez à l'URL suivante](https://www.microsoft.com/fr-fr/p/opencomp-genie/9ng17jn52232?activetab=pivot:overviewtab).
 
 ## Depuis le site
 

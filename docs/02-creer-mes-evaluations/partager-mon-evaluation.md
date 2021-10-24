@@ -9,6 +9,4 @@ description: >-
 
 Découvrez cette fonctionnalité en vidéo :
 
-<figure class="video-container">
-<iframe src="//www.youtube-nocookie.com/embed/cM35_GmvXE4?rel=0" frameborder="0" allowfullscreen width="100%"></iframe>
-</figure>
+<div data-service="youtube" data-id="cM35_GmvXE4" data-autoscale></div>

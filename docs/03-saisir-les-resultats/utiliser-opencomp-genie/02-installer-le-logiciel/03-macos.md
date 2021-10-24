@@ -39,10 +39,14 @@ import TabItem from '@theme/TabItem';
 
 <Tabs>
 <TabItem value="macos1014" label="macOS 10.14 et supérieur" default>
+
 ![Cliquez sur "Ouvrir" pour lancer Opencomp Genie pour la première fois.](../../../.gitbook/assets/gatekeeper-10-14.png)
+
 </TabItem>
 
 <TabItem value="macos1013" label="macOS 10.13 et antérieur">
+
 ![Cliquez sur "Ouvrir" pour lancer Opencomp Genie pour la première fois.](../../../.gitbook/assets/gatekeeper-10-13.png)
+
 </TabItem>
 </Tabs>

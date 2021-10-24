@@ -97,12 +97,9 @@ Certains outils très pratiques ont été développés spécialement pour vous e
 
 #### Insérer des réglures Seyès
 
-<figure class="video-container">
-<iframe src="//www.youtube-nocookie.com/embed/21BgZaLM9os?rel=0" frameborder="0" allowfullscreen width="100%"></iframe>
-</figure>
+<div data-service="youtube" data-id="21BgZaLM9os" data-autoscale></div>
+
 
 #### Insérer un Vrai/Faux
 
-<figure class="video-container">
-<iframe src="//www.youtube-nocookie.com/embed/j5ZGgV5ZWTs?rel=0" frameborder="0" allowfullscreen width="100%"></iframe>
-</figure>
+<div data-service="youtube" data-id="j5ZGgV5ZWTs" data-autoscale></div>

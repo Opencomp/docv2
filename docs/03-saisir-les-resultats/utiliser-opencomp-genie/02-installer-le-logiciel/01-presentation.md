@@ -11,9 +11,11 @@ description: >-
 
 ![](../../../.gitbook/assets/Windows-10-Logo.png)
 
-{% content-ref url="windows.md" %}
-[windows.md](windows.md)
-{% endcontent-ref %}
+<div class="pagination-nav__item">
+<a class="pagination-nav__link" href="/saisir-les-resultats/utiliser-opencomp-genie/installer-le-logiciel/windows/">
+    <div class="pagination-nav__label">➜&nbsp;&nbsp;Windows</div>
+</a>
+</div>
 
 ## OS X (10.11) ou macOS (10.12, 10.13, 10.14)
 
@@ -21,9 +23,11 @@ description: >-
 
 Le logiciel **Opencomp Genie** fonctionne sur **OS X** (version 10.11 dite « _El Capitan_ ») et les versions **macOS** ultérieures (10.12 dite « _Sierra_ », 10.13 dite « _High Sierra_ », 10.14 dite « _Mojave_ »).
 
-{% content-ref url="macos.md" %}
-[macos.md](macos.md)
-{% endcontent-ref %}
+<div class="pagination-nav__item">
+<a class="pagination-nav__link" href="/saisir-les-resultats/utiliser-opencomp-genie/installer-le-logiciel/macos/">
+    <div class="pagination-nav__label">➜&nbsp;&nbsp;macOS / Mac OS X</div>
+</a>
+</div>
 
 ## Distributions GNU/Linux
 
@@ -31,7 +35,9 @@ Le logiciel **Opencomp Genie** fonctionne sur **OS X** (version 10.11 dite « _E
 
 Le logiciel** Opencomp Genie **fonctionne sur les distributions GNU/Linux majeures telles que **Ubuntu**, **Debian**, **Fedora**, **Red Hat**, **CentOS**, **openSuse** ou encore **Archlinux**.
 
-{% content-ref url="gnu-linux.md" %}
-[gnu-linux.md](gnu-linux.md)
-{% endcontent-ref %}
+<div class="pagination-nav__item">
+<a class="pagination-nav__link" href="/saisir-les-resultats/utiliser-opencomp-genie/installer-le-logiciel/gnu-linux/">
+    <div class="pagination-nav__label">➜&nbsp;&nbsp;GNU/Linux</div>
+</a>
+</div>
 
