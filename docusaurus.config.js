@@ -36,7 +36,7 @@ const config = {
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/Opencomp/doc/edit/master/',
+          editUrl: 'https://github.com/Opencomp/docv2/edit/documentation/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
