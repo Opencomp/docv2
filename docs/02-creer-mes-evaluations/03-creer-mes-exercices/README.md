@@ -5,6 +5,8 @@ description: >-
   expliqués.
 ---
 
+import IframeManagerComponent from "../../../src/components/IframeManagerComponent.js";
+
 # Créer mes exercices
 
 Avant de pouvoir ajouter/créer des exercices dans une évaluation, vous devez d'abord avoir [**créé l'évaluation.**](../../creer-une-nouvelle-evaluation)
@@ -103,3 +105,5 @@ Certains outils très pratiques ont été développés spécialement pour vous e
 #### Insérer un Vrai/Faux
 
 <div data-service="youtube" data-id="j5ZGgV5ZWTs" data-autoscale></div>
+
+<IframeManagerComponent/>

@@ -1,3 +1,5 @@
+import IframeManagerComponent from "../../../src/components/IframeManagerComponent.js";
+
 # Numériser mes copies
 
 ## Directement depuis une solution d'impression (imprimante multifonction, copieur)
@@ -9,6 +11,7 @@ La majorité des copieurs désormais installés dans les établissements scolair
 ### Exemple de numérisation vers USB
 
 <div data-service="vimeo" data-id="164273945" data-autoscale></div>
+<IframeManagerComponent/>
 
 Exemple de numérisation vers USB (Konica Minolta)
 

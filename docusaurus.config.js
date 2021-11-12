@@ -22,11 +22,6 @@ const config = {
     locales: ['fr'],
   },
 
-  scripts: [
-    '/docv2/vendor/iframemanager/iframemanager.js',
-    '/docv2/js/main.js'
-  ],
-
   presets: [
     [
       '@docusaurus/preset-classic',

@@ -1,3 +1,5 @@
+import IframeManagerComponent from "../../src/components/IframeManagerComponent.js";
+
 # Extraire les élèves depuis ONDE
 
 ## Qu'est-ce que ONDE ?
@@ -28,7 +30,7 @@ L'identifiant ONDE de la classe est disponible dans la **colonne numéro 18 (col
 Une procédure pas à pas en vidéo a été réalisée pour vous guider dans le processus d'extraction d'élèves depuis ONDE.
 
 <div data-service="youtube" data-id="SY_Imd4S2RE" data-autoscale></div>
-
+<IframeManagerComponent/>
 
 
 ## Pas à pas en images

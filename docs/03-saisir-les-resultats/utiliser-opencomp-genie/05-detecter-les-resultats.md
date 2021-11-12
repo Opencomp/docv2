@@ -1,3 +1,5 @@
+import IframeManagerComponent from "../../../src/components/IframeManagerComponent.js";
+
 # Détecter les résultats
 
 Lors du premier lancement d'**Opencomp Genie**, vous devez renseigner **votre clé d'API Opencomp**.
@@ -27,6 +29,7 @@ Une fois en possession d'[un fichier PDF contenant la numérisation de vos copie
 <div data-service="youtube" data-id="2BG1hWjNVNQ" data-autoscale></div>
 <br/>
 <br/>
+<IframeManagerComponent/>
 
 | Code / couleur | Description                                                                                                                                                                          |
 | -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
