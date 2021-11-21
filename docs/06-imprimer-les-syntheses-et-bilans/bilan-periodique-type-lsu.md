@@ -1,2 +1,0 @@
-# Bilans périodiques type "LSU"
-

@@ -1,2 +1,0 @@
-# Saisir à la souris
-

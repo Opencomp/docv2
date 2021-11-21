@@ -1,2 +1,0 @@
-# Synthèses périodiques
-

@@ -1,2 +1,0 @@
-# Exporter depuis Opencomp
-

@@ -98,6 +98,7 @@ const config = {
           },
         ],
       },
+      hideableSidebar: true,
       colorMode: {
         disableSwitch: true,
       },
