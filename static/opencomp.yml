@@ -1,0 +1,332 @@
+---
+openapi: 3.0.0
+info:
+  title: Opencomp REST API
+  version: "1.0"
+  description: |-
+    L'API REST d'Opencomp vous permet d'effectuer des actions automatisées sans avoir besoin d'utiliser manuellement l'application (par l'entremise d'un navigateur Web).
+
+    L'API peut permettre à un programme de récupérer des données depuis Opencomp (par exemple les élèves de vos classes, vos évaluations, etc.) mais également d'en envoyer (résultats obtenus aux évaluations par exemple).
+  termsOfService: https://opencomp.fr/legal/mentions-legales
+  contact:
+    name: Opencomp
+    url: https://opencomp.fr/
+    email: support@opencomp.fr
+servers:
+- url: https://my.opencomp.fr/api/v1
+  description: 'Serveur d''API '
+paths:
+  /classrooms/{id}.{format}:
+    summary: Récupérer une classe
+    get:
+      tags:
+      - classes
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/classroom'
+              examples:
+                Récupération d'une classe au format JSON:
+                  value:
+                    id: 109
+                    id_be: 10001455
+                    title: Classe de démo 2018
+                    year_id: 8
+                    establishment_id: DEMO1234
+                    created: 2018-08-14T00:00:00+00:00
+                    pupils_count: 25
+                    evaluations_count: 4
+            text/xml: {}
+          description: Classe récupérée avec succès.
+      summary: Récupérer une classe
+    parameters:
+    - examples:
+        Identififiant de la classe à récupérer:
+          value: "73"
+      name: id
+      description: L'identifiant de la classe à récupérer
+      schema:
+        type: integer
+      in: path
+      required: true
+    - examples:
+        Retourner la réponse au format JSON:
+          description: Retourner la réponse au format JSON
+          value: json
+        Retourner la réponse au format XML:
+          description: Retourner la réponse au format XML
+          value: xml
+      name: format
+      description: Le format de retour à utiliser.
+      schema:
+        enum:
+        - json
+        - xml
+        type: string
+      in: path
+      required: true
+  /towns.{format}:
+    get:
+      tags:
+      - nomenclatures
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                description: ""
+                required:
+                - items
+                - total_count
+                type: object
+                properties:
+                  items:
+                    minItems: 1
+                    uniqueItems: true
+                    type: array
+                    items:
+                      required:
+                      - id
+                      - name
+                      - academy_id
+                      properties:
+                        id:
+                          minLength: 1
+                          type: string
+                        name:
+                          minLength: 1
+                          type: string
+                        academy_id:
+                          type: number
+                        academy:
+                          required:
+                          - id
+                          - name
+                          type: object
+                          properties:
+                            id:
+                              type: number
+                            name:
+                              minLength: 1
+                              type: string
+                  total_count:
+                    type: number
+                x-examples:
+                  example-1:
+                    items:
+                    - id: "02013"
+                      name: Amifontaine
+                      academy_id: 20
+                      academy:
+                        id: 20
+                        name: Amiens
+                    - id: "02014"
+                      name: Amigny-Rouy
+                      academy_id: 20
+                      academy:
+                        id: 20
+                        name: Amiens
+                    - id: "06002"
+                      name: Amirat
+                      academy_id: 23
+                      academy:
+                        id: 23
+                        name: Nice
+                    - id: "28006"
+                      name: Amilly
+                      academy_id: 18
+                      academy:
+                        id: 18
+                        name: Orléans-Tours
+                    - id: "42004"
+                      name: Amions
+                      academy_id: 10
+                      academy:
+                        id: 10
+                        name: Lyon
+                    - id: "45004"
+                      name: Amilly
+                      academy_id: 18
+                      academy:
+                        id: 18
+                        name: Orléans-Tours
+                    - id: "50006"
+                      name: Amigny
+                      academy_id: 5
+                      academy:
+                        id: 5
+                        name: Caen
+                    - id: "77002"
+                      name: Amillis
+                      academy_id: 24
+                      academy:
+                        id: 24
+                        name: Créteil
+                    - id: "80021"
+                      name: Amiens
+                      academy_id: 20
+                      academy:
+                        id: 20
+                        name: Amiens
+                    total_count: 9
+              examples:
+                Récupération de la liste des villes:
+                  value:
+                    items:
+                    - id: "02013"
+                      name: Amifontaine
+                      academy_id: 20
+                      academy:
+                        id: 20
+                        name: Amiens
+                    - id: "02014"
+                      name: Amigny-Rouy
+                      academy_id: 20
+                      academy:
+                        id: 20
+                        name: Amiens
+                    - id: "06002"
+                      name: Amirat
+                      academy_id: 23
+                      academy:
+                        id: 23
+                        name: Nice
+                    - id: "28006"
+                      name: Amilly
+                      academy_id: 18
+                      academy:
+                        id: 18
+                        name: Orléans-Tours
+                    - id: "42004"
+                      name: Amions
+                      academy_id: 10
+                      academy:
+                        id: 10
+                        name: Lyon
+                    - id: "45004"
+                      name: Amilly
+                      academy_id: 18
+                      academy:
+                        id: 18
+                        name: Orléans-Tours
+                    - id: "50006"
+                      name: Amigny
+                      academy_id: 5
+                      academy:
+                        id: 5
+                        name: Caen
+                    - id: "77002"
+                      name: Amillis
+                      academy_id: 24
+                      academy:
+                        id: 24
+                        name: Créteil
+                    - id: "80021"
+                      name: Amiens
+                      academy_id: 20
+                      academy:
+                        id: 20
+                        name: Amiens
+                    total_count: 9
+          description: Liste des villes récupérée avec succès.
+        "401":
+          content:
+            application/json:
+              examples:
+                La clé d'API est manquante ou n'existe pas.:
+                  value:
+                    message: You need to pass api_key query parameter to authenticate
+                      first!
+                    url: /api/v1/towns.json
+                    code: 401
+          description: La clé d'API est manquante ou n'existe pas.
+      operationId: ""
+      summary: Récupérer la liste des villes
+      description: Ce point d'accès vous permet de récupérer les villes.
+    parameters:
+    - examples:
+        Retourner la réponse au format JSON:
+          description: Retourner la réponse au format JSON
+          value: json
+        Retourner la réponse au format XML:
+          description: Retourner la réponse au format XML
+          value: xml
+      name: format
+      description: Le format de retour à utiliser.
+      schema:
+        enum:
+        - json
+        - xml
+        type: string
+      in: path
+      required: true
+components:
+  schemas:
+    classroom:
+      title: Root Type for jsonObject
+      description: ""
+      type: object
+      properties:
+        id:
+          format: int32
+          description: Identifiant interne de la classe dans Opencomp.
+          type: integer
+        id_be:
+          format: int32
+          description: "Identifiant de la classe dans le logiciel ONDE (Outil Numé\
+            rique pour la Direction d'École) académique du Ministère National de L'É\
+            ducation, de la Jeunesse et des Sports."
+          type: integer
+        title:
+          description: Le libellé de la classe.
+          type: string
+        year_id:
+          format: int32
+          description: L'identifiant interne Opencomp de l'année scolaire à laquelle
+            est rattachée la classe.
+          type: integer
+        establishment_id:
+          description: Identifiant UAI de l'établissement rattaché à la classe.
+          type: string
+        created:
+          format: date-time
+          description: Date de création de la classe
+          type: string
+        pupils_count:
+          format: int32
+          description: Le nombre d'élèves présents dans la classe.
+          type: integer
+        evaluations_count:
+          format: int32
+          description: Nombre d'évalutations de la classe.
+          type: integer
+        license_key:
+          description: La clé de licence établissement rattachée à cette classe si
+            cette dernière a été activée.
+          type: string
+      example:
+        id: 109
+        id_be: 10001455
+        title: Classe de démo 2018
+        year_id: 8
+        establishment_id: DEMO1234
+        created: 2018-08-14T00:00:00+00:00
+        pupils_count: 25
+        evaluations_count: 4
+  securitySchemes:
+    apiKey:
+      type: apiKey
+      description: Votre clé d'API Opencomp accessible depuis la page https://my.opencomp.fr/users/profile
+        une fois connecté.
+      name: api_key
+      in: query
+security:
+- apiKey: []
+tags:
+- name: nomenclatures
+  description: "Cette rubrique permet de récupérer les différentes nomenclatures et\
+    \ les identifiants associées (liste des villes, cycles et niveau scolaires, etc.)"
+- name: classes
+  description: ""
