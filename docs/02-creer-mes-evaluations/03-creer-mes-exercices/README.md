@@ -5,7 +5,7 @@ description: >-
   expliqués.
 ---
 
-import IframeManagerComponent from "../../../../src/components/IframeManagerComponent.js";
+import IframeManagerComponent from "../../../src/components/IframeManagerComponent.js";
 
 # Créer mes exercices
 

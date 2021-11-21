@@ -1,4 +1,4 @@
-import IframeManagerComponent from "../../../../src/components/IframeManagerComponent.js";
+import IframeManagerComponent from "../../../src/components/IframeManagerComponent.js";
 
 # Numériser mes copies
 

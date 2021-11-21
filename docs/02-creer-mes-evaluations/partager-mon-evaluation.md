@@ -5,7 +5,7 @@ description: >-
   Découvrez comment dans cette page.
 ---
 
-import IframeManagerComponent from "../../../src/components/IframeManagerComponent.js";
+import IframeManagerComponent from "../../src/components/IframeManagerComponent.js";
 
 # Partager mon évaluation
 
