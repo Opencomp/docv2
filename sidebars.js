@@ -18,7 +18,6 @@ module.exports = {
       label: 'API REST (développeurs)',
       collapsible:false,
       items: [
-        'api/README',
         {
           type: 'link',
           label: 'Points de terminaison', // Le libellé du lien
