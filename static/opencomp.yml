@@ -265,8 +265,8 @@ paths:
 components:
   schemas:
     classroom:
-      title: Root Type for jsonObject
-      description: ""
+      title: Objet classroom
+      description: Contient les informations relatives à une classe
       type: object
       properties:
         id:
