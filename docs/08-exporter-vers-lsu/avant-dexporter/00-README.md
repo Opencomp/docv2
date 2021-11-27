@@ -23,7 +23,7 @@ Assurez vous \(en début d'année uniquement\) que LSU est correctement paramét
 </div>
 <br />
 <div class="pagination-nav__item">
-<a class="pagination-nav__link" href="/exporter-vers-lsu/avant-dexporter/parametrer-import-editeur-lsu/">
+<a class="pagination-nav__link" href="/exporter-vers-lsu/avant-dexporter/parametrer-lsu/parametrer-import-editeur-lsu/">
     <div class="pagination-nav__label">➜&nbsp;&nbsp;Paramétrer les classes en "Import éditeur"</div>
 </a>
 </div>
