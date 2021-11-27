@@ -15,9 +15,12 @@ La classe pour laquelle vous essayez d'importer les bilans n'a pas été associ�
 
 ## Solution
 
-{% content-ref url="../avant-dexporter/parametrer-lsu/parametrer-les-periodes-dans-lsu.md" %}
-[parametrer-les-periodes-dans-lsu.md](../avant-dexporter/parametrer-lsu/parametrer-les-periodes-dans-lsu.md)
-{% endcontent-ref %}
+<div class="pagination-nav__item">
+<a class="pagination-nav__link" href="/exporter-vers-lsu/avant-dexporter/parametrer-lsu/parametrer-les-periodes-dans-lsu/">
+    <div class="pagination-nav__label">➜&nbsp;&nbsp;Paramétrer les périodes dans LSU</div>
+</a>
+</div>
+<br/>
 
 :::note
 
@@ -28,6 +31,9 @@ Cette erreur se produit également systématiquement si l'erreur **Classe non tr
 
 Consulter la page ci-dessous relative à l'erreur **Classe non trouvée** pour en savoir plus :
 
-{% content-ref url="classe-non-trouvee.md" %}
-[classe-non-trouvee.md](classe-non-trouvee.md)
-{% endcontent-ref %}
+<div class="pagination-nav__item">
+<a class="pagination-nav__link" href="/exporter-vers-lsu/resolution-de-problemes/classe-non-trouvee/">
+    <div class="pagination-nav__label">➜&nbsp;&nbsp;Classe non trouvée</div>
+</a>
+</div>
+<br/>

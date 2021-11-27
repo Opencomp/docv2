@@ -14,12 +14,12 @@ Pour savoir comment récupérer les INE de vos élèves et l'identifiant ONDE de
 
 :::
 
-
-{% content-ref url="/aide-onde-directeurs/extraire-les-eleves-depuis-onde" %}
-[extraire-les-eleves-depuis-onde.md](/aide-onde-directeurs/extraire-les-eleves-depuis-onde)
-{% endcontent-ref %}
-
-
+<div class="pagination-nav__item">
+<a class="pagination-nav__link" href="/aide-onde-directeurs/extraire-les-eleves-depuis-onde/">
+    <div class="pagination-nav__label">➜&nbsp;&nbsp;Extraire les élèves depuis ONDE</div>
+</a>
+</div>
+<br/><br/>
 
 Pour chaque période :
 

@@ -54,15 +54,24 @@ Si vous êtes déjà dans une évaluation, vous pouvez accéder facilement à la
 
 Une fois que vous avez accédé à la page permettant de saisir les résultats de votre évaluations, vous devez choisir un mode de saisie.
 
-{% content-ref url="/saisir-les-resultats/saisir-a-la-souris" %}
-[saisir-a-la-souris.md](/saisir-les-resultats/saisir-a-la-souris)
-{% endcontent-ref %}
+<div class="pagination-nav__item">
+<a class="pagination-nav__link" href="/saisir-les-resultats/saisir-a-la-souris/">
+    <div class="pagination-nav__label">➜&nbsp;&nbsp;Saisir à la souris</div>
+</a>
+</div>
+<br />
 
-{% content-ref url="/saisir-les-resultats/saisir-avec-des-codes-a-barres" %}
-[saisir-avec-des-codes-a-barres.md](/saisir-les-resultats/saisir-avec-des-codes-a-barres)
-{% endcontent-ref %}
+<div class="pagination-nav__item">
+<a class="pagination-nav__link" href="/saisir-les-resultats/saisir-avec-des-codes-a-barres/">
+    <div class="pagination-nav__label">➜&nbsp;&nbsp;Saisir avec des codes à barres</div>
+</a>
+</div>
+<br />
 
-{% content-ref url="/saisir-les-resultats/utiliser-opencomp-genie/README" %}
-[utiliser-opencomp-genie](/saisir-les-resultats/utiliser-opencomp-genie/README)
-{% endcontent-ref %}
+<div class="pagination-nav__item">
+<a class="pagination-nav__link" href="/saisir-les-resultats/utiliser-opencomp-genie/README">
+    <div class="pagination-nav__label">➜&nbsp;&nbsp;Utiliser Opencomp Genie</div>
+</a>
+</div>
+<br />
 

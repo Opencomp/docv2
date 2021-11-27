@@ -19,6 +19,9 @@ Modifiez le paramétrage des classes concernées dans LSU pour positionner leur 
 
 Consulter la page ci-dessous pour en savoir plus sur la procédure à suivre :
 
-{% content-ref url="../avant-dexporter/parametrer-lsu/parametrer-import-editeur-lsu.md" %}
-[parametrer-import-editeur-lsu.md](../avant-dexporter/parametrer-lsu/parametrer-import-editeur-lsu.md)
-{% endcontent-ref %}
+<div class="pagination-nav__item">
+<a class="pagination-nav__link" href="/exporter-vers-lsu/avant-dexporter/parametrer-lsu/parametrer-import-editeur-lsu/">
+    <div class="pagination-nav__label">➜&nbsp;&nbsp;Paramétrer les classes en "Import éditeur"</div>
+</a>
+</div>
+<br/>

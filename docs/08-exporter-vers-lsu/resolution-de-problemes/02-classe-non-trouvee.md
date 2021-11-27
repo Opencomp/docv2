@@ -19,12 +19,18 @@ Assurez vous que l'identifiant ONDE de votre classe renseigné dans Opencomp est
 
 ### **Récupérer l'identifiant classe de ma classe dans ONDE**
 
-{% content-ref url="/aide-onde-directeurs/recuperer-lid-onde-dune-classe" %}
-[recuperer-lid-onde-dune-classe.md](/aide-onde-directeurs/recuperer-lid-onde-dune-classe)
-{% endcontent-ref %}
+<div class="pagination-nav__item">
+<a class="pagination-nav__link" href="/aide-onde-directeurs/recuperer-lid-onde-dune-classe/">
+    <div class="pagination-nav__label">➜&nbsp;&nbsp;Récupérer l'identifiant ONDE d'une classe</div>
+</a>
+</div>
+<br/>
 
 ### Vérifier/modifier l'identifiant ONDE de ma classe dans Opencomp
 
-{% content-ref url="/gerer-ma-classe-au-quotidien/modifier-lidentifiant-onde" %}
-[modifier-lidentifiant-onde.md](/gerer-ma-classe-au-quotidien/modifier-lidentifiant-onde)
-{% endcontent-ref %}
+<div class="pagination-nav__item">
+<a class="pagination-nav__link" href="/gerer-ma-classe-au-quotidien/modifier-lidentifiant-onde/">
+    <div class="pagination-nav__label">➜&nbsp;&nbsp;Modifier l'identifiant ONDE d'une classe dans Opencomp</div>
+</a>
+</div>
+<br/>
