@@ -21,7 +21,7 @@ module.exports = {
         {
           type: 'link',
           label: 'Points de terminaison', // Le libellé du lien
-          href: 'https://opencomp.github.io/docv2/api/', // L'URL externe
+          href: 'https://doc.opencomp.fr/api/', // L'URL externe
         },
       ],
     },

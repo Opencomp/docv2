@@ -8,9 +8,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Documentation Opencomp',
   tagline: 'Dinosaurs are cool',
-  url: 'https://opencomp.github.io',
+  url: 'https://doc.opencomp.fr',
   trailingSlash: true,
-  baseUrl: '/docv2/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
