@@ -29,7 +29,7 @@ L'identifiant ONDE de la classe est disponible dans la **colonne numéro 18 (col
 
 Une procédure pas à pas en vidéo a été réalisée pour vous guider dans le processus d'extraction d'élèves depuis ONDE.
 
-<div data-service="youtube" data-id="SY_Imd4S2RE" data-autoscale></div>
+<div data-service="youtube" data-id="02p68MT_WY8" data-autoscale></div>
 <IframeManagerComponent/>
 
 
