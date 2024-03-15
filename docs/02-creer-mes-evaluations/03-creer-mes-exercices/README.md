@@ -9,7 +9,7 @@ import IframeManagerComponent from "../../../src/components/IframeManagerCompone
 
 # Créer mes exercices
 
-Avant de pouvoir ajouter/créer des exercices dans une évaluation, vous devez d'abord avoir [**créé l'évaluation.**](../../creer-une-nouvelle-evaluation)
+Avant de pouvoir ajouter/créer des exercices dans une évaluation, vous devez d'abord avoir [**créé l'évaluation.**](../creer-une-nouvelle-evaluation)
 
 Si vous avez déjà créé l'évaluation, vous pouvez y ajouter des exercices depuis la page **Contenu de l'évaluation**.
 
