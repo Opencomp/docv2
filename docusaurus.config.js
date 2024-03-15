@@ -30,6 +30,7 @@ const config = {
         docs: {
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
+          breadcrumbs: false,
           // Please change this to your repo.
           editUrl: 'https://github.com/Opencomp/docv2/edit/documentation/',
         },
