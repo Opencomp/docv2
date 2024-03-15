@@ -42,8 +42,6 @@ Pour les parents ne disposant pas d'une adresse de courrier électronique, il es
 ## Ressources complémentaires pour les directeurs d'établissements
 
 * [Présentation interactive de l'administation des comptes Educonnect \(par l'académie d'Amiens\)](http://videodiff.ac-amiens.fr/presentations/Educonnect/)
-
-{% file src="../.gitbook/assets/educonnect\_guideutilisateurrapide\_admincomptes\_v1.9.pdf" caption="Educonnect - Guide utilisateur rapide" %}
-
-{% file src="../.gitbook/assets/educonnect\_guideutilisateurdetaille\_admincomptes\_v1.9.pdf" caption="Educonnect - Guide utilisateur détaillé" %}
+* [Educonnect - Guide utilisateur rapide](../.gitbook/assets/educonnect_guideutilisateurrapide_admincomptes_v1.9.pdf)
+* [Educonnect - Guide utilisateur détaillé](../.gitbook/assets/educonnect_guideutilisateurdetaille_admincomptes_v1.9.pdf)
 

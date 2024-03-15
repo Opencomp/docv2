@@ -51,19 +51,7 @@ const config = {
         docsRouteBasePath: "/",
         // For Docs using Chinese, The `language` is recommended to set to:
         // ```
-        language: ["fr"],
-        translations: {
-          "search_placeholder": "Rechercher",
-          "see_all_results": "Voir tous les résultats",
-          "no_results": "Aucun résultat",
-          "search_results_for": "Résultats de la recherche pour \"{{ keyword }}\"",
-          "search_the_documentation": "Rechercher dans la documentation",
-          "count_documents_found": "{{ count }} document trouvé",
-          "count_documents_found_plural": "{{ count }} documents trouvés",
-          "no_documents_were_found": "Aucun document n'a été trouvé"
-        }
-        // ```
-        // When applying `zh` in language, please install `nodejieba` in your project.
+        language: ["fr"]
       },
     ],
   ],
@@ -98,7 +86,11 @@ const config = {
           },
         ],
       },
-      hideableSidebar: true,
+      docs: {
+        sidebar: {
+          hideable: true
+        }
+      },
       colorMode: {
         disableSwitch: true,
       },
