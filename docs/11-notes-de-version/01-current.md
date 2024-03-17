@@ -9,6 +9,16 @@ description: >-
 
 _Les mises à jour liées à la sécurité et à l'infrastructure sont indiquées par mesure de transparence mais n'entraînent aucun changement visible à votre niveau._
 
+## v2024.1.4 - 17/03/2024
+
+### :bug: Corrigé
+
+- Correction du lien permettant d'afficher les notes de version d'Opencomp en cliquant sur le numéro de version dans le pied de page.
+
+### :fallen_leaf: Nettoyage de code
+
+- Correction d'une dépréciation suite au passage à la version 5.0 du cadriciel CakePHP.
+
 ## v2024.1.3 - 15/03/2024
 
 ### :art: Apparence
