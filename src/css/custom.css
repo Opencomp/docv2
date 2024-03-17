@@ -67,9 +67,12 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   font-weight: bold;
   font-variant-caps: all-small-caps;
     color: rgba(136,153,168,1.00);
-  margin-top: 30px;
-  margin-bottom: 5px;
+  margin-top: 10px;
   font-size: larger;
+}
+
+.menu__list-item-collapsible:hover:has(a.menu__link:not(.menu__link--sublist)) {
+  background-color: transparent !important;
 }
 
 .alert--secondary {
