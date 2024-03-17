@@ -53,7 +53,7 @@ _Les mises à jour liées à la sécurité et à l'infrastructure sont indiquée
 
 ### :fallen_leaf: Nettoyage de code
 
-- Correction de plusieurs dépréciations suite au passage à la version 4.5 du cadriciel CakePHP.
+- Correction de plusieurs dépréciations suite au passage à la version 5.0 du cadriciel CakePHP.
 
 ## v2024.0.6 - 6/03/2024
 
