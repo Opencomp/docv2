@@ -9,6 +9,19 @@ description: >-
 
 _Les mises à jour liées à la sécurité et à l'infrastructure sont indiquées par mesure de transparence mais n'entraînent aucun changement visible à votre niveau._
 
+## v2024.1.6 - 17/04/2024
+
+### :bug: Corrigé
+
+- La création d'une nouvelle classe était impossible (régression depuis la version v2024.1.0) ; c'est désormais corrigé.
+- Dans certains cas, il était impossible de créer une nouvelle évaluation à partir d'une évaluation partagée par un ou une collègue (régression depuis la version v2024.1.0). Cela se produisait dans le cas où l'évaluation partagée comportait un ou plusieurs élément(s) de programme personnel(s).
+
+## v2024.1.5 - 18/03/2024
+
+### :bug: Corrigé
+
+- Corrections liées aux liens de rappel HTTP avec le prestataire de paiement Stripe pour la création automatique des factures suite à la réception d'un paiement.
+
 ## v2024.1.4 - 17/03/2024
 
 ### :bug: Corrigé
