@@ -1,4 +1,7 @@
 {
   "label": "Notes de version",
-  "collapsible": false
+  "collapsible": false,
+  "link": {
+    "type": "generated-index"
+  }
 }

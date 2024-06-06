@@ -9,6 +9,19 @@ description: >-
 
 _Les mises à jour liées à la sécurité et à l'infrastructure sont indiquées par mesure de transparence mais n'entraînent aucun changement visible à votre niveau._
 
+## v2024.1.7 - 5/06/2024
+
+### :bug: Corrigé
+
+- La recherche d'un établissement scolaire dont le code INSEE de la commune débutait par un 0 renvoyait une erreur 404. C'est désormais corrigé :wink:
+
+### :arrows_counterclockwise: Dépendances
+
+- Mise à jour des dépendances **backend** :gear:
+- Mise à jour des dépendances **frontend** :art:
+- Mise à jour de l'image :whale: Docker.
+    - Mise à jour de **`php`**.
+
 ## v2024.1.6 - 17/04/2024
 
 ### :bug: Corrigé
