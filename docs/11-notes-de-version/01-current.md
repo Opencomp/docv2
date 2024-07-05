@@ -9,6 +9,17 @@ description: >-
 
 _Les mises à jour liées à la sécurité et à l'infrastructure sont indiquées par mesure de transparence mais n'entraînent aucun changement visible à votre niveau._
 
+## v2024.1.8 - 5/07/2024
+
+### :bug: Corrigé
+
+- L'affichage de la prochaine date du cycle de facturation ne s'effectuait plus de façon correcte. C'est désormais corrigé :wink:
+- Correction de la date affichée dans la liste des factures.
+
+### :fallen_leaf: Nettoyage de code
+
+- Correction d'une dépréciation suite au passage à la version 5.0 du cadriciel CakePHP.
+
 ## v2024.1.7 - 5/06/2024
 
 ### :bug: Corrigé
